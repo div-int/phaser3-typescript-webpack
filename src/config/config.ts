@@ -1,6 +1,6 @@
 export default {
   type: Phaser.AUTO,
-  parent: "hauntlet",
+  parent: "Phaser3",
   width: window.innerWidth,
   height: window.innerHeight,
   pixelArt: true,
