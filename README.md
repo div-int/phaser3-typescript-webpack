@@ -5,6 +5,14 @@ that includes hot-reloading for development and production-ready builds.
 
 Loading assets via JavaScript module `import` and Typescript module `require` is also supported.
 
+## Installation
+
+To use as a template for a new project you must clone the repo from github.com and not install from [npmjs.com](https://www.npmjs.com/package/@div-int/phaser3-typescript-webpack).
+
+* `git clone` https://github.com/div-int/phaser3-typescript-webpack.git **_NameOfProject_**
+* `cd` **_NameOfProject_**
+* `npm install`
+
 ## Requirements
 
 [Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
