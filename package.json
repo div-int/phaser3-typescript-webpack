@@ -1,6 +1,6 @@
 {
-  "name": "phaser3-typescript-webpack",
-  "version": "1.1.0",
+  "name": "@div-int/phaser3-typescript-webpack",
+  "version": "1.1.3",
   "description": "A Phaser 3 Project Template with Typescript and Webpack support",
   "main": "src/index.js",
   "scripts": {
@@ -42,5 +42,11 @@
   },
   "dependencies": {
     "phaser": "^3.16.2"
-  }
+  },
+  "keywords": [
+    "phaser3",
+    "typescript",
+    "gamedev",
+    "2d"
+  ]
 }
