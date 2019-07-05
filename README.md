@@ -7,7 +7,7 @@ Loading assets via JavaScript module `import` and Typescript module `require` is
 
 ## Installation
 
-To use as a template for a new project you must clone the repo from github.com and not install with npm.
+To use as a template for a new project you must clone the repo from github.com and not install from [npmjs](https://www.npmjs.com/package/@div-int/phaser3-typescript-webpack).
 
 * `git clone` https://github.com/div-int/phaser3-typescript-webpack.git **_NameOfProject_**
 * `cd` **_NameOfProject_**
