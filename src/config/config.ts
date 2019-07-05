@@ -3,6 +3,7 @@ export default {
   parent: "Phaser3",
   width: window.innerWidth,
   height: window.innerHeight,
+  backgroundColor: '#ffffff',
   pixelArt: true,
   roundPixels: true,
   scale: {
