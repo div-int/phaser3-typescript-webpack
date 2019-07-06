@@ -2,9 +2,11 @@ import "phaser";
 import config from "./config/config";
 import GameScene from "./scenes/gamescene";
 
+let game: Phaser.Game;
+
 class MyGame extends Phaser.Game {
 
-  version:string;
+  private version:string;
 
   constructor(config: Phaser.Types.Core.GameConfig) {
     super(config);
@@ -19,10 +21,12 @@ class MyGame extends Phaser.Game {
 }
 
 window.onload = function() {
-  var myGame = new MyGame(config);
+  game = new MyGame(config);
 };
 
 window.onresize = function() {
-  myGame.renderer.resize(window.innerWidth, window.innerHeight);
-
+  console.log(window.innerWidth, window.innerHeight);
+  // game.canvas.width = window.innerWidth;
+  // game.canvas.height = window.innerHeight;
+  game.renderer.resize(window.innerWidth, window.innerHeight);
 }
