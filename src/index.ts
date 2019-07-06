@@ -21,3 +21,8 @@ class MyGame extends Phaser.Game {
 window.onload = function() {
   var myGame = new MyGame(config);
 };
+
+window.onresize = function() {
+  myGame.renderer.resize(window.innerWidth, window.innerHeight);
+
+}
