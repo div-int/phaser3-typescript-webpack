@@ -3,11 +3,11 @@ export default {
   parent: "Phaser3",
   width: window.innerWidth,
   height: window.innerHeight,
-  backgroundColor: '#ffffff',
-  pixelArt: true,
-  roundPixels: true,
+  backgroundColor: "#000000",
+  pixelArt: false,
+  roundPixels: false,
   scale: {
-    mode: Phaser.Scale.FIT,
+    mode: Phaser.Scale.RESIZE,
     autoCenter: Phaser.Scale.CENTER_BOTH
   },
   physics: {
